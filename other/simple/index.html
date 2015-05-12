@@ -1,0 +1,135 @@
+<html>
+<head>
+<title>Dmitry Troshin</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script type="text/javascript" language="javascript">
+function myFunction(layer)
+{
+if(layer == "about")
+	{document.getElementById("work").style.display="none";
+	document.getElementById("about").style.display="block";}
+if(layer == "work")
+	{document.getElementById("about").style.display="none";
+	document.getElementById("work").style.display="block";}
+}
+</script>
+</head>
+<body>
+<div class="bounds">
+	<div class="header">
+		<div class="slogan fl">
+			<h1>Dmitry Troshin</h1>
+		</div>
+		<div class="menu">
+			<div class="nav_item"><a href="https://github.com/dtroshin">GitHub</a></div>
+			<div id="about_nav" class="nav_item" onclick="myFunction('about')">About</div>			
+            <div id="work_nav" class="nav_item" onclick="myFunction('work')">Work</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<div id="work" class="main">
+		<div class="third fl">
+            <a href="resume.html">
+				<img src="img/resume.jpg" alt="Dmitry Troshin's Resume" />
+				<div class="description">Dmitry's Resume</div>
+			</a>
+		</div>
+		<div class="third fl">
+            <a href="../websites/perfectlift/index.html">
+				<img src="../img/site1.png" alt="Milans Perfect Lift Restaurant" />
+				<div class="description">HTML Site</div>
+			</a>
+        </div>
+		<div class="third fl">
+            <a href="http://www.petsafe.net/busybuddy">
+				<img src="../img/bb.png" alt="Busy Buddy Landing Page" />
+				<div class="description">Responsive Landing Page</div>
+			</a>
+        </div>
+		<div class="third fl">
+            <a href="http://www.petsafe.net/gentleleader">
+				<img src="../img/gl.png" alt="Gentle Leader Landing Page" />
+				<div class="description">Responsive Landing Page</div>
+			</a>
+        </div>
+		<div class="third fl">
+            <a href="http://www.sportdog.com/about-us/galleries">
+				<img src="../img/sd_gallaries.png" alt="Expression Engine Example" />
+				<div class="description">Expression Engine Gallaries Page</div>
+			</a>
+        </div>
+		<div class="third fl">
+            <a href="http://store.sportdog.com/uplandhunter-1875">
+				<img src="../img/reviewit.png" alt="Magento Review Example" />
+				<div class="description">Magento Review tabs</div>
+			</a>
+        </div>
+		<div class="third fl">
+			<a href="../websites/PFIAllSports/index.html">
+				<img src="../websites/PFIAllSports/images/pfi_banner.jpg" alt="HTML - PFI Allsports" />
+				<div class="description">PFI AllSports HTML Outline</div>
+			</a>
+		</div>
+		<div class="third fl">
+			<a href="http://www.pfiallsports.com/">
+				<img src="../websites/PFIAllSports/images/pfi_banner.jpg" alt="Wordpress - PFI Allsports" />
+				<div class="description">Wordpress Version</div>
+			</a>
+		</div>
+		<div class="third fl">
+            <a href="http://uschefskiclub.org">
+				<img src="../websites/uschefskiclub/images/banner.jpg" alt="US Chef Ski Club" />
+				<div class="description">ASP.NET Site</div>
+			</a>
+		</div>
+		<div class="third fl" style="display:none;">
+            <a href="/portfolio/Websites/NuclearSymphony">
+				<img src="../websites/NuclearSymphony/img/banner.jpg" alt="Nuclear Symphony" />
+				<div class="description">Band wordpress Website</div>
+			</a>
+        </div>
+		<div class="clearfix"></div>
+	</div>
+    <div id="about" class="main">
+        <div class="main_about fl">
+            <p>Name: Dmitry Troshin</p>
+
+            <p>About: </p>
+            <p>
+				Hi there, my name is Dmitry Troshin. My passion for everything computers began when I was 16 years old trying to build my first website for the Perfect Lift Restaurant. 
+				Fast forward a few years later, I am now a graduate of Fountainhead College of Technology with a focus on application development. My strengths are in the front end development of web design, however my passion is in the deeper end of computer programming using languages such as JAVA. C#, and C++. 
+				I have experience with web tools such as Expression Engine, Magento, and Wordpress. Using the latest in web technologies and languages such as HTML5, CSS3, javascript, and JQuery, I am able to effectively create websites, landing pages, and modify existing sites. 
+			</p>
+        </div>
+        <div class="info_about fl">
+            <img src="img/me.jpg" alt="Picture of Dmitry Troshin" />
+            <p>Location: Brookyln, New York</p>
+               
+            <p>Email: dtroshin102@gmail.com</p>   
+
+            <p>Technologies:
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Javascript</li>
+                    <li>JQuery</li>
+                    <li>GitHub</li>
+                </ul>
+            </p>
+			<p>Other Technologies:
+                <ul>
+                    <li>.NET (C#/VB)</li>
+                    <li>C++</li>
+                    <li>JAVA</li>
+                </ul>
+            </p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="footer">
+        &copy 2014 Dmitry Troshin. All Rights Reserved.
+    </div>
+</div>
+</body>
+</html>

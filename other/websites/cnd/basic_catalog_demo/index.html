@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>CND Catalog StandAlone Demo</title>
+    
+    <link rel="stylesheet" href="js-css/jquery-ui-1.11.4.css"/>
+    <script type="text/javascript" src="js-css/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js-css/jquery-ui-1.11.4.js"></script>
+    
+    
+    <script type="text/javascript" src="js-css/turnjs4/lib/turn.html4.js"></script>
+    <script type="text/javascript" src="js-css/turnjs4/lib/zoom.js"></script>
+    
+    <link rel="stylesheet" href="js-css/catalog_styles.css"/>
+    <script type="text/javascript" src="js-css/script.js"></script>
+</head>
+
+<body>
+<div id="flipbook_main_wrap">
+    <div id="flipbook_controls_wrap" class="clearfix">
+        <div class="control-item flip-arrows turnpagebtn start"><img src="images/controls/start.jpg" alt="start arrow"/></div>
+        <div class="control-item flip-arrows turnpagebtn prev"><img src="images/controls/previous-arrow.jpg" alt="previous arrow"/></div>
+        <div class="control-item flip-arrows zoombtn zoomin"><img src="images/controls/zoomin.jpg" alt="end arrow"/></div>
+        <div class="control-item flip-arrows pagestatus"><span id="currentpage"></span> / <span id="totalpages"></span></div>
+        <div class="control-item flip-arrows zoombtn zoomout"><img src="images/controls/zoomout.jpg" alt="end arrow"/></div>
+        <div class="control-item flip-arrows turnpagebtn next"><img src="images/controls/next-arrow.jpg" alt="next arrow"/></div>
+        <div class="control-item flip-arrows turnpagebtn end"><img src="images/controls/end.jpg" alt="end arrow"/></div>
+    </div>
+        
+        
+    <div id="flipbook_wrap">
+        <div id="zoom-viewport">
+            <div id="flipbook">
+                <div class="shadow"><img src="images/pages/1.jpg" alt="page 1" /></div>
+                <div class="shadow"><img src="images/pages/2.jpg" alt="page 2" /></div>
+                <div class="shadow"><img src="images/pages/3.jpg" alt="page 3" /></div>
+                <div class="shadow"><img src="images/pages/4.jpg" alt="page 4" /></div>
+                <div class="shadow"><img src="images/pages/5.jpg" alt="page 5" /></div>
+                <div class="shadow"><img src="images/pages/6.jpg" alt="page 6" /></div>
+                <div class="shadow"><img src="images/pages/7.jpg" alt="page 7" /></div>
+                <div class="shadow"><img src="images/pages/8.jpg" alt="page 8" /></div>
+                <div class="shadow"><img src="images/pages/9.jpg" alt="page 9" /></div>
+                <div class="shadow"><img src="images/pages/10.jpg" alt="page 10" /></div>
+                <div class="shadow"><img src="images/pages/11.jpg" alt="page 11" /></div>
+                <div class="shadow"><img src="images/pages/12.jpg" alt="page 12" /></div>
+                <div class="shadow"><img src="images/pages/13.jpg" alt="page 13" /></div>
+                <div class="shadow"><img src="images/pages/14.jpg" alt="page 14" /></div>
+                <div class="shadow"><img src="images/pages/15.jpg" alt="page 15" /></div>
+                <div class="shadow"><img src="images/pages/16.jpg" alt="page 16" /></div>
+                <div class="shadow"><img src="images/pages/17.jpg" alt="page 17" /></div>
+                <div class="shadow"><img src="images/pages/18.jpg" alt="page 18" /></div>
+                <div class="shadow"><img src="images/pages/19.jpg" alt="page 19" /></div>
+                <div class="shadow"><img src="images/pages/20.jpg" alt="page 20" /></div>
+                <div class="shadow"><img src="images/pages/21.jpg" alt="page 21" /></div>
+                <div class="shadow"><img src="images/pages/22.jpg" alt="page 22" /></div>
+                <div class="shadow"><img src="images/pages/23.jpg" alt="page 23" /></div>
+                <div class="shadow"><img src="images/pages/24.jpg" alt="page 24" /></div>
+                <div class="shadow"><img src="images/pages/25.jpg" alt="page 25" /></div>
+                <div class="shadow"><img src="images/pages/26.jpg" alt="page 26" /></div>
+            </div>
+        </div>
+    </div>
+    <div id="flipbook_thumbnail_wrap" class="clearfix">
+        <!-- Thumbnails -->
+        <div class="thumbnail-arrows prev"><img src="images/controls/previous-arrow.jpg" alt="previous arrow"/></div>
+        <div class="thumbnails">
+            <div class="innerWrapper">
+                <ul>
+                    <li class="i">
+                        <img src="images/pages/1.jpg" width="100" height="125" alt="" class="page-1"/>
+                        <span>1</span>
+                    </li>
+                    <li class="d">
+                        <img src="images/pages/2.jpg" width="100" height="125" alt="" class="page-2"/><img src="images/pages/3.jpg" width="100" height="125" alt="" class="page-3"/>
+                        <span>2-3</span>
+                    </li>
+                    <li class="d">
+                        <img src="images/pages/4.jpg" width="100" height="125" alt="" class="page-4"/><img src="images/pages/5.jpg" width="100" height="125" alt="" class="page-5"/>
+                        <span>4-5</span>
+                    </li>
+                    <li class="d">
+                        <img src="images/pages/6.jpg" width="100" height="125" alt="" class="page-6"/><img src="images/pages/7.jpg" width="100" height="125" alt="" class="page-7"/>
+                        <span>6-7</span>
+                    </li>
+                    <li class="d">
+                        <img src="images/pages/8.jpg" width="100" height="125" alt="" class="page-8"/><img src="images/pages/9.jpg" width="100" height="125" alt="" class="page-9"/>
+                        <span>8-9</span>
+                    </li>
+                    <li class="d">
+                        <img src="images/pages/10.jpg" width="100" height="125" alt="" class="page-10"/><img src="images/pages/11.jpg" width="100" height="125" alt="" class="page-11"/>
+                        <span>10-11</span>
+                    </li>
+                    <li class="d">
+                        <img src="images/pages/12.jpg" width="100" height="125" alt="" class="page-12"/><img src="images/pages/13.jpg" width="100" height="125" alt="" class="page-13"/>
+                        <span>12-13</span>
+                    </li>
+                    <li class="d">
+                        <img src="images/pages/14.jpg" width="100" height="125" alt="" class="page-14"/><img src="images/pages/15.jpg" width="100" height="125" alt="" class="page-15"/>
+                        <span>14-15</span>
+                    </li>
+                    <li class="d">
+                        <img src="images/pages/16.jpg" width="100" height="125" alt="" class="page-16"/><img src="images/pages/17.jpg" width="100" height="125" alt="" class="page-17"/>
+                        <span>16-17</span>
+                    </li>
+                    <li class="d">
+                        <img src="images/pages/18.jpg" width="100" height="125" alt="" class="page-18"/><img src="images/pages/19.jpg" width="100" height="125" alt="" class="page-19"/>
+                        <span>18-19</span>
+                    </li>
+                    <li class="d">
+                        <img src="images/pages/20.jpg" width="100" height="125" alt="" class="page-20"/><img src="images/pages/21.jpg" width="100" height="125" alt="" class="page-21"/>
+                        <span>20-21</span>
+                    </li>
+                    <li class="d">
+                        <img src="images/pages/22.jpg" width="100" height="125" alt="" class="page-22"/><img src="images/pages/23.jpg" width="100" height="125" alt="" class="page-23"/>
+                        <span>22-23</span>
+                    </li>
+                    <li class="d">
+                        <img src="images/pages/24.jpg" width="100" height="125" alt="" class="page-24"/><img src="images/pages/25.jpg" width="100" height="125" alt="" class="page-25"/>
+                        <span>24-25</span>
+                    </li>
+                    
+                    <li class="i">
+                        <img src="images/pages/26.jpg" width="100" height="125" alt="" class="page-26"/>
+                        <span>26</span>
+                    </li>
+                </ul>
+            </div>	            
+        </div>
+        <div class="thumbnail-arrows next"><img src="images/controls/next-arrow.jpg" alt="next arrow"/></div>
+    </div>
+</div>
+</body>
+</html>

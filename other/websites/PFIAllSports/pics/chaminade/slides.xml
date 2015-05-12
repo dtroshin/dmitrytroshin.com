@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flash_parameters>
+    <preferences>
+        <global>
+            <basic_property movieWidth="550" movieHeight="400" groundinsize="1" html_title="Title" loadStyle="Bar" startAutoPlay="true" continuum="true" anvsoftMenu="false" backgroundColor="" inbordercolor="" hideAdobeMenu="true" photoDynamicShow="true" enableURL="true" transitionArray=""/>
+            <title_property showTitle="false" photoTitleColor="0xffffff" backgroundColor="" alpha="30" autoHide="true"/>
+            <music_property path="" stream="true" loop="true"/>
+            <photo_property topPadding="5" bottomPadding="62" leftPadding="5" rightPadding="5"/>
+            <description_property textleftborder="3" texttopborder="2" enable="true" backgroundColor="" backgroundAlpha="100"/>
+        </global>
+        <thumbnail>
+            <basic_property thumWidth="40" thumHeight="40" skewwidth="40" skewheight="30" thumbnailposition="bottom" thumbnailboxboder="0" thumborder="1" thumSpacing="2" borderColor="0xa6caf0" currentBorderColor="0x0000ff" shadowalpha="40" thumway="outward"/>
+            <button_property btnhide="true" btnsize="20" btnspacing="3" buttonColor="0x003eff" btnfiltercolor="0x0000c0"/>
+        </thumbnail>
+    </preferences>
+    <album>
+        <slide jpegURL="thumbs/t_0001.jpg" d_URL="slides/p_0001.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0339" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0002.jpg" d_URL="slides/p_0002.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0343" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0003.jpg" d_URL="slides/p_0003.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0345" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0004.jpg" d_URL="slides/p_0004.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0349" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0005.jpg" d_URL="slides/p_0005.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0350" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0006.jpg" d_URL="slides/p_0006.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0354" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0007.jpg" d_URL="slides/p_0007.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0356" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0008.jpg" d_URL="slides/p_0008.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0359" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0009.jpg" d_URL="slides/p_0009.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0360" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0010.jpg" d_URL="slides/p_0010.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0362" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0011.jpg" d_URL="slides/p_0011.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0366" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0012.jpg" d_URL="slides/p_0012.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0373" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0013.jpg" d_URL="slides/p_0013.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0378" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0014.jpg" d_URL="slides/p_0014.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0383" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0015.jpg" d_URL="slides/p_0015.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0387" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0016.jpg" d_URL="slides/p_0016.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0392" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0017.jpg" d_URL="slides/p_0017.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0396" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0018.jpg" d_URL="slides/p_0018.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0399" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0019.jpg" d_URL="slides/p_0019.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0400" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0020.jpg" d_URL="slides/p_0020.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0402" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0021.jpg" d_URL="slides/p_0021.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0414" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0022.jpg" d_URL="slides/p_0022.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0416" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0023.jpg" d_URL="slides/p_0023.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0418" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0024.jpg" d_URL="slides/p_0024.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0424" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0025.jpg" d_URL="slides/p_0025.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0428" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0026.jpg" d_URL="slides/p_0026.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0429" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0027.jpg" d_URL="slides/p_0027.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0435" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0028.jpg" d_URL="slides/p_0028.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0439" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0029.jpg" d_URL="slides/p_0029.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0443" width="540" height="333"/>
+        <slide jpegURL="thumbs/t_0030.jpg" d_URL="slides/p_0030.jpg" transition="0" panzoom="1" URLTarget="0" phototime="5" url="http://www.slideshowzilla.com" title="DSC_0450" width="540" height="333"/>
+    </album>
+</flash_parameters>
